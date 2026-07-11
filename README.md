@@ -170,3 +170,50 @@ The ShopEasy database system provides a centralized platform to manage:
 Requirement analysis and documentation have been successfully completed. The next phase will focus on database design, ER modeling, normalization, and SQL implementation.
 
 ---
+
+
+
+
+
+# Week 2 – Entity and Relationship Analysis
+
+## Project Title
+**ShopEasy – E-Commerce Order Management Database System**
+
+## Overview
+In Week 2, the data requirements of the ShopEasy – E-Commerce Order Management Database System were analyzed based on the Software Requirement Specification (SRS) prepared in Week 1. This phase focused on identifying all the entities involved in the system, defining their attributes, determining primary keys and foreign keys, applying database constraints, and analyzing the relationships and cardinality between entities. These activities provide the foundation for an efficient and normalized relational database design.
+
+## Objectives
+- Identify all entities required for the system.
+- Define attributes for every entity.
+- Identify Primary Keys (PK) and Foreign Keys (FK).
+- Apply database constraints such as NOT NULL, UNIQUE, DEFAULT, and CHECK.
+- Analyze relationships between entities.
+- Identify relationship cardinality (One-to-One, One-to-Many, and Many-to-Many).
+- Prepare Entity Analysis and Entity Relationship Analysis reports.
+
+## Files Included
+```
+Week2/
+│── Entity_Analysis_Report.docx
+│── Entity_Relationship_Analysis.docx
+│── README.md
+```
+
+## Entity Analysis Summary
+The Entity Analysis Report identifies the core entities of the ShopEasy system, including Customer, Category, Product, Supplier, Order, Order Details, Payment, Shipment, and Review. Each entity is defined with its attributes, Primary Key (PK), Foreign Key (FK), and database constraints such as NOT NULL, UNIQUE, DEFAULT, and CHECK. This analysis ensures data integrity, minimizes redundancy, and supports efficient database management.
+
+## Entity Relationship Analysis Summary
+The Entity Relationship Analysis Report explains how the entities are connected within the database. It defines the relationships between entities, identifies the appropriate cardinality (One-to-One and One-to-Many), and describes how these relationships support customer management, product management, order processing, payment tracking, shipment tracking, and review management. The relationship model ensures referential integrity and provides a clear structure for database implementation.
+
+## Learning Outcomes
+- Understood the process of entity identification.
+- Defined entity attributes, primary keys, and foreign keys.
+- Applied database constraints to maintain data accuracy and consistency.
+- Analyzed relationships and cardinality between entities.
+- Developed a strong foundation for ER Diagram creation, normalization, and SQL table design.
+
+## Conclusion
+** Week 2 successfully completed ** 
+
+the Entity Analysis and Entity Relationship Analysis for the ShopEasy – E-Commerce Order Management Database System. The reports clearly define the database entities, attributes, keys, constraints, relationships, and cardinality required for the system. These deliverables serve as the foundation for the next phase of the project, including ER Diagram development, database normalization, and SQL implementation.
