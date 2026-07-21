@@ -223,53 +223,95 @@ the Entity Analysis and Entity Relationship Analysis for the ShopEasy – E-Comm
 
 
 
-# Week 3 – Entity Relationship (ER) Diagram and Relational Schema Design**
+
+# WEEK-3 README
+
+## Project Title
+
+**ShopEasy – E-Commerce Order Management Database System**
+
+**Week-3: Entity Relationship (ER) Diagram and Relational Schema Design**
 
 ---
 
 ## Objective
 
-The objective of Week 3 is to design the Entity Relationship (ER) Diagram for the E-Commerce Order Management Database System and convert the conceptual database model into a Relational Schema. This logical design serves as the foundation for implementing the database in the upcoming weeks.
+The objective of Week-3 is to design the **Entity Relationship (ER) Diagram** and **Relational Schema** for the ShopEasy E-Commerce Order Management Database System. This phase identifies the entities, attributes, relationships, primary keys, foreign keys, and cardinality to create a well-structured relational database.
 
 ---
 
-## Description
+## Tasks Completed
 
-During this week, the following tasks were completed:
-
-- Designed the complete Entity Relationship (ER) Diagram.
-- Identified all entities and their attributes.
-- Specified Primary Keys (PK) and Foreign Keys (FK).
-- Defined relationships between entities.
-- Represented relationship cardinality (1:1, 1:M).
-- Included participation constraints where applicable.
-- Converted the ER model into a Relational Schema.
-- Verified that all relationships were correctly mapped into relational tables.
-- Prepared the ER Diagram Design Report and Relationship Mapping Report.
+* Identified all entities required for the system.
+* Defined attributes for each entity.
+* Assigned Primary Keys (PK) and Foreign Keys (FK).
+* Designed the Entity Relationship (ER) Diagram.
+* Defined relationships between entities.
+* Specified cardinality (1:1 and 1:M).
+* Created the Relational Schema for database implementation.
 
 ---
 
-## Entities Included
+## Entities
 
-- Customer
-- Category
-- Supplier
-- Product
-- Order
-- Order Details
-- Payment
-- Shipment
-- Review
-
----
-
+* Customer
+* Category
+* Supplier
+* Product
+* Order
+* Order_Details
+* Payment
+* Shipment
+* Review
 
 ---
 
-## Outcome
+## Relationships
 
-The ER Diagram and Relational Schema accurately represent the E-Commerce Order Management Database System by defining entities, relationships, primary keys, foreign keys, and constraints. This design ensures data integrity, reduces redundancy, and provides a solid structure for future database implementation.
+* Customer **Places** Order
+* Order **Has** Order_Details
+* Order_Details **Contains** Product
+* Product **Belongs To** Category
+* Supplier **Supplies** Product
+* Order **Has** Payment
+* Order **Has** Shipment
+* Customer **Writes** Review
+* Product **Receives** Review
 
 ---
+
+## Cardinality
+
+* Customer → Order (1:M)
+* Category → Product (1:M)
+* Supplier → Product (1:M)
+* Order → Order_Details (1:M)
+* Product → Order_Details (1:M)
+* Order → Payment (1:1)
+* Order → Shipment (1:1)
+* Customer → Review (1:M)
+* Product → Review (1:M)
+
+---
+
+## Deliverables
+
+* ER Diagram
+* ER Diagram Design Report
+* Relational Schema
+* README Document
+
+---
+
+## Expected Outcome
+
+The Week-3 deliverables provide a complete logical database design for the ShopEasy system. The ER Diagram and Relational Schema ensure proper relationships, maintain data integrity, reduce redundancy, and serve as the foundation for database implementation in the upcoming phases.
+
+---
+
+## Conclusion
+
+  the database design phase by creating the ER Diagram and Relational Schema. The designed database structure efficiently represents the relationships among customers, products, suppliers, orders, payments, shipments, and reviews, ensuring a scalable and reliable E-Commerce Order Management System.ed 
+
 
 ##WEEK-3 SUCESFULLY COMPLETED
